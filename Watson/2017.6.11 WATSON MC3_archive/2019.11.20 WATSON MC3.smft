@@ -1,0 +1,18 @@
+<Device Model="MC3" Name="MC3.">
+   <Network Type="Cresnet" Id="01"/>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="CEN-RFGW-EX" DeviceId="80" Name="CEN-RFGW-EX (Ethernet)">
+         <Network Type="RF">
+            <Device Model="HR-150,HRI-150" DeviceId="03" Name="HR-150 [TPR_03 Loft]"/>
+            <Device Model="HR-150,HRI-150" DeviceId="04" Name="HR-150 [TPR_04}"/>
+            <Device Model="INET-IOEX-IRCOM" DeviceId="11" Name="INET-IOEX-IRCOM [LOFT]"/>
+            <Device Model="INET-IOEX-IRCOM" DeviceId="12" Name="INET-IOEX-IRCOM [BEDROOM]"/>
+         </Network>
+      </Device>
+   </Network>
+   <Network Type="RF" Id="03">
+      <Device Model="HR-150,HRI-150" DeviceId="03" Name="LIVING ROOM"/>
+      <Device Model="HR-150,HRI-150" DeviceId="04" Name="HR-150 [TPR_02]"/>
+      <Device Model="INET-IOEX-IRCOM" DeviceId="10" Name="INET-IOEX-IRCOM [MASTER]"/>
+   </Network>
+</Device>
